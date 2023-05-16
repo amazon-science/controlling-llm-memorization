@@ -1,7 +1,7 @@
 
 # Controlling LLM memorization
 
-## Setting up environment
+## Setting up the environment
 First setup your conda environment by running `conda env create -f environment.yml`.
 You also need to configure [HF accelerate](https://huggingface.co/docs/accelerate/index).
 The configuration used in final experiments is in `accelerate_config.yaml`. You can simply
@@ -40,7 +40,7 @@ This is going to create result files under `logs/processed_logs` where file name
 e.g., `modelSize:medium', '(prefixSize:50', 'suffixSize:50', 'numBeams:1').txt` contains results for the 1.3B model.
 
 
-## Running extra experiments
+## Running additional experiments
 Simply extend the runner script as desired. For example, if you want to run an aligned CLM attack
 with `prompt length=200`, change the first line of the section below in `src/runner.sh` to `for len_prompt in 200`.
 ```bash
