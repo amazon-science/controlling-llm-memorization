@@ -66,12 +66,13 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 This library is licensed under the CC-BY-NC-4.0 License.
 
 ## How to cite
-The paper introducing the experiments conducted with thsi code is forthcoming, in the interim you can cite it as:
+The paper introducing the experiments conducted with this code is forthcoming. In the interim, you can cite it as:
 ```
-@article{ozdayi2023controlling,
-  title={Controlling the Extraction of Memorized Data from Large Language Models via Prompt-Tuning},
-  author={Ozdayi, Mustafa Safa and Peris, Charith and FitzGerald, Jack and Dupuy, Christophe and Majmudar, Jimit and Khan, Haidar  and Parikh, Rahil and Gupta, Rahul},
-  journal={},
-  year={2023}
+@Inproceedings{Ozdayi2023,
+ author = {Mustafa Ozdayi and Charith Peris and Jack G. M. FitzGerald and Christophe Dupuy and Jimit Majmudar and Haidar Khan and Rahil Parikh and Rahul Gupta},
+ title = {Controlling the extraction of memorized data from large language models via Prompt-Tuning},
+ year = {2023},
+ url = {https://www.amazon.science/publications/controlling-the-extraction-of-memorized-data-from-large-language-models-via-prompt-tuning},
+ booktitle = {ACL 2023},
 }
 ```
